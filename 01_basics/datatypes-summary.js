@@ -9,9 +9,35 @@ let userEmai;;
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
-console.log(id === anotherId);
+// console.log(id === anotherId);
+
+// const bigNumber = 2233343423223432332n;
+
 
 
 // Reference (Non-Primitive)
 
 // Array, Objects, Functions
+
+// Arrays-
+
+const heros = ["Shaktiman", "nagraj", "Doga"];
+
+// Objects-
+
+let myObj = {
+    name: "Ayush",
+    age: 22,
+}
+
+// Function
+
+const myFunction = function(){
+    console.log("Hello world");
+    
+}
+
+// console.log(typeof bigNumber);
+// console.log(typeof outsideTemp);
+// console.log(typeof myFunction);
+console.log(typeof anotherId);
