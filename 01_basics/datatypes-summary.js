@@ -40,4 +40,35 @@ const myFunction = function(){
 // console.log(typeof bigNumber);
 // console.log(typeof outsideTemp);
 // console.log(typeof myFunction);
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/*
+
+Memory Use:-
+             Stack (Primitive), Heap (Non-Primitive)
+
+*/
+
+let myYoutubename = "AyushMishadotcom"
+
+let anotherName = myYoutubename
+anotherName = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Ayush@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
